@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Roboto", sans-serif;
+    ;
+}
+
+@layer components {
+
+    .container-md {
+        @apply mx-auto px-[20px];
+        @apply max-sm:px-[20px];
+        @apply sm:px-[40px];
+        @apply md:px-[40px];
+        @apply lg:max-w-[980px] lg:px-0;
+        @apply xl:max-w-[1160px] xl:px-0;
+        @apply 2xl:max-w-[1200px] 2xl:px-0;
+    }
+
+    .mobile-menu-container {
+        @apply px-[20px] py-[12px] lg:px-[0px] lg:py-[0px]
+    }
+
+    .animation-hoverline {
+        @apply relative after:bg-secondaryColor after:absolute after:top-[95%] after:h-[4px] after:w-0 after:bottom-0 after:left-[50%] hover:after:w-full hover:after:left-0 after:transition-all after:duration-700 cursor-pointer
+    }
+
+}
+
+.page {
+    @apply h-full w-full relative
+}
+
+
+/************* Header CSS *************/
+
+
+.lg-navbar {
+    @apply lg:flex
+}
+
+.lg-navbar .nav {
+    @apply lg:flex lg:bg-transparent;
+    @apply bg-white text-secondaryColor lg:bg-transparent max-h-screen max-lg:overflow-y-auto;
+    @apply max-lg:py-4;
+}
+
+.arrow-active {
+    @apply bg-red-50
+}
+
+.lg-navbar .nav .nav-list {
+    @apply flex max-lg:px-[26px] max-lg:py-[12px];
+    @apply transition-all ease-linear delay-75 max-lg:text-primaryColor max-lg:hover:text-secondaryColor text-secondaryColor font-semibold;
+}
+
+.lg-navbar .nav .nav-list .arrow-icon {
+    @apply hidden;
+    @apply h-fit w-fit my-auto text-[12px] mr-2 lg:hidden relative;
+    @apply transition-all delay-75 ease-linear;
+}
+
+.lg-navbar .nav .nav-list .nav-link {
+    @apply lg:px-[13px] lg:py-[33px] text-[14px] xl:text-[15px] font-[500] uppercase lg:hover:text-secondaryColor;
+    @apply transition-all ease-linear delay-100
+}
+
+.lg-navbar .navbar-btn-group {
+    @apply pl-[25px] w-fit h-fit my-auto
+}
+
+.lg-navbar .navbar-btn-group .apply-now-btn {
+    @apply bg-secondaryColor w-fit h-fit my-auto px-4 py-2 border-[2px] border-[#fdc800] text-primaryColor text-[12px] font-bold uppercase rounded-sm;
+    @apply hover:bg-primaryColor hover:border-secondaryColor transition-colors delay-75 ease-linear hover:text-secondaryColor
+}
+
+.showmenu {
+    @apply block
+}
+
+.hidemenu {
+    @apply hidden
+}
+
+
+/* .sm-navbar .nav {
+    @apply bg-white
+} */
