@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Eikra/static/css/main.67e628ba.css",
+    "main.js": "/Eikra/static/js/main.b12aaadc.js",
+    "static/js/453.e63f9b68.chunk.js": "/Eikra/static/js/453.e63f9b68.chunk.js",
+    "static/media/python.jpg": "/Eikra/static/media/python.ed4c5a1992e0c288296f.jpg",
+    "static/media/programing.jpg": "/Eikra/static/media/programing.fea9d13a254e673621af.jpg",
+    "static/media/react.jpg": "/Eikra/static/media/react.1138062a3c17a841b671.jpg",
+    "static/media/html.jpg": "/Eikra/static/media/html.13bdc697a569b1439bd4.jpg",
+    "static/media/cc.jpg": "/Eikra/static/media/cc.c8bd36df377434192a4e.jpg",
+    "static/media/marketing.jpg": "/Eikra/static/media/marketing.c71926aa6804b8995c4e.jpg",
+    "static/media/angular.jpg": "/Eikra/static/media/angular.076797011eaf709e562b.jpg",
+    "static/media/expand1.jpg": "/Eikra/static/media/expand1.9176551daf77401613d1.jpg",
+    "static/media/ai.jpg": "/Eikra/static/media/ai.e5d07c1bb4d506ed24e3.jpg",
+    "static/media/landingImage5.png": "/Eikra/static/media/landingImage5.d0d3fd097d28ee87c29a.png",
+    "static/media/node.jpg": "/Eikra/static/media/node.3f4d3c224865b673736f.jpg",
+    "static/media/studentswithcap.jpg": "/Eikra/static/media/studentswithcap.8eb5ecbd5efd110a28c1.jpg",
+    "static/media/js.jpg": "/Eikra/static/media/js.097d03ce9d166d99f464.jpg",
+    "static/media/student1.png": "/Eikra/static/media/student1.1a19bde6e30d72a93d5f.png",
+    "static/media/student4.png": "/Eikra/static/media/student4.ec727ee03769abae2180.png",
+    "static/media/student3.png": "/Eikra/static/media/student3.614483aa48e92f810a07.png",
+    "static/media/student2.png": "/Eikra/static/media/student2.ff60c53c31398cd8e12d.png",
+    "index.html": "/Eikra/index.html",
+    "main.67e628ba.css.map": "/Eikra/static/css/main.67e628ba.css.map",
+    "main.b12aaadc.js.map": "/Eikra/static/js/main.b12aaadc.js.map",
+    "453.e63f9b68.chunk.js.map": "/Eikra/static/js/453.e63f9b68.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67e628ba.css",
+    "static/js/main.b12aaadc.js"
+  ]
+}
